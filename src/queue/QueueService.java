@@ -7,6 +7,11 @@ public class QueueService<T extends  Comparable <T>>{
     {
         linkedList.append(data);
     }
+    //Method to delete front element from the queue
+    public void deQueue()
+    {
+        linkedList.pop();
+    }
     //method to print the queue
     public void print()
     {
